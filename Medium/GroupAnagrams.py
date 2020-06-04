@@ -34,6 +34,8 @@ Algorithm -
 
 # Analysis time = O(n) time | O(1) space
 
+from typing import List
+
 
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
