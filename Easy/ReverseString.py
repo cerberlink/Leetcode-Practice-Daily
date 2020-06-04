@@ -52,3 +52,8 @@ class Solution:
             s[left], s[right] = s[right], s[left]  # swap
             left += 1  # move to another one in left
             right -= 1  # move to another one in right
+
+
+input = ["h", "e", "l", "l", "o"]
+
+print(Solution().reverseString(input))
